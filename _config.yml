@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile-git.jpg"
-  name             : "Mike"
+  name             : "Mikhail Kudinov"
   pronouns         : # example: "she/her"  
   bio              : "Cryptography Researcher | Post-quantum Cryptography | Provable Security"
   location         : "Netherlands"
@@ -45,7 +45,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "github.com/error0024"
+  github           : "error0024"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -59,7 +59,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/mikhailkudinov/"
+  linkedin         : "mikhailkudinov"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
