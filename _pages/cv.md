@@ -8,38 +8,50 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-Education
+Overview
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+Final-year Ph.D. candidate with 7 years of experience in cryptography, specializing in post-quantum cryptography, provable security, and blockchain. Contributed to NIST's standardization process as a member of the SPHINCS+ team and published in top-tier venues like IEEE S&P and AsiaCrypt. Led research teams at the Russian Quantum Center, focusing on quantum-resistant cryptographic schemes and their applications in blockchain and secure communication. 
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Jul 2021 ‑ Present: Researcher. PhD Candidate.
+  * Eindhoven University of Technology
+  * Conducted research in post‑quantum cryptography, hash‑based signatures, and key encapsulation mechanisms.
+  * Published 6+ papers, including publications in top‑tier conferences like IEEE S&P and AsiaCrypt, and collaborated with the
+Ethereum Foundation on hash‑based signatures
+  * Supervisor: Dr. Andreas Hülsing.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Oct 2020 ‑ March 2022: Lead Researcher
+  * Russian Quantum Center
+  * Led a 3‑person research team, resulting in 4+ publications, a patent, and multiple keynote presentations at international
+conferences.
+  * Developed proof‑of‑concept implementations of cryptographic schemes and consulted on blockchain integration.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* Oct 2018 ‑ Sep 2020: Junior Researcher
+  * Russian Quantum Center
+  * Conducted research on post‑quantum cryptography, provable security, broadcast encryption schemes, and
+blockchain technologies.
+
+Education
+======
+* Ph.D in Cryptography and Provable Security, Eindhoven University of Technology, 2025 (expected)
+* Specialist (B.S. + M.S.) in Computer Security, Bauman Moscow State Technical University, 2021
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages:
+  * Russian - Native
+  * English - Fluent
+  * Dutch - Beginner
+* Programming:
+  * Rust
+  * Python
+  * Sage-Math
+  * C++
+* Soft Skills:
+  * Project management
+  * Teamwork
+  * Presentation
 
 Publications
 ======
@@ -59,6 +71,25 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Community Service
 ======
-* Currently signed in to 43 different slack teams
+Reviewer for: 
+<table>
+<tr>
+<th> SAC 2024, 2022 </th>
+<th> KC 2023 </th>
+</tr>
+<tr>
+
+<tr>
+<th> EuroCrypt 2023 </th>
+<th> Journal of Cryptology 2022 </th>
+</tr>
+<tr>
+
+<tr>
+<th> CT‑RSA 2023 </th>
+<th> PQCrypto 2022 </th>
+</tr>
+<tr>
+</table>
