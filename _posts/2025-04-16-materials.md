@@ -14,7 +14,7 @@ These books and other materials helped my study of cryptography. If there is an 
 Materials that I can suggest for Cryptography and Computer Science
 ======
 
-Combinatorics: [Combinatorics by N. Ya. Vilenkin](https://www.isinj.com/mt-usamo/Combinatorics%20Vilenkin%20N.Ia.%20\(1971\).pdf)[(RUS)](https://ikfia.ysn.ru/wp-content/uploads/2018/01/Vilenkin1969ru.pdf)
+Combinatorics: [Combinatorics by N. Ya. Vilenkin](https://www.amazon.com/Combinatorics-N-Ya-Vilenkin/dp/1483248011/ref=sr_1_1?sr=8-1)[(RUS)](https://ikfia.ysn.ru/wp-content/uploads/2018/01/Vilenkin1969ru.pdf) 
 
 Algebra and Linear Algebra: [Introduction to Algebra by Kostrikin](https://link.springer.com/book/9780387907116) [(RUS vol 1;](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=266488)[RUS vol 2; ](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=240005)[RUS vol 3)](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=266487)
 
@@ -26,11 +26,11 @@ Probability Theory: [Probability and Statistics for Computer Scientists by Micha
 
 Finite Fields and their applications: [Finite Fields by Lidl, Niederreiter ](https://www.amazon.com/Finite-Fields-Encyclopedia-Mathematics-Applications/dp/0521065674) [(RUS)](https://urss.ru/cgi-bin/db.pl?lang=RU&blang=ru&page=Book&id=2157), [Элементы конечной алгебры: группы, кольца, поля, линейные пространства - Чашкин А.В., Жуков Д. А.](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=222603)
 
-Mathematical tools: [Concrete Mathematics by Rondald L. Graham, Donald E. Knuth, Oren Patashnik ](https://www.csie.ntu.edu.tw/~r97002/temp/Concrete%20Mathematics%202e.pdf)[(RUS);](https://www.livelib.ru/book/1000396737-konkretnaya-matematika-osnovanie-informatiki-donald-knut) [generatingfunctionology by Herbert S. Wilf;](https://www.amazon.com/dp/1568812795/?coliid=I1UHGNVIMF7IWX&colid=PWCD0GGI1S2H&psc=1&ref_=lv_vv_lig_dp_it)
+Mathematical tools: [Concrete Mathematics by Rondald L. Graham, Donald E. Knuth, Oren Patashnik ](https://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201142368/ref=sr_1_2?s=books&sr=1-2)[(RUS);](https://www.livelib.ru/book/1000396737-konkretnaya-matematika-osnovanie-informatiki-donald-knut) [generatingfunctionology by Herbert S. Wilf;](https://www.amazon.com/dp/1568812795/?coliid=I1UHGNVIMF7IWX&colid=PWCD0GGI1S2H&psc=1&ref_=lv_vv_lig_dp_it)
 
 Coding theory: [Error-Correcting Codes by W. Wesley Peterson, E. J. Weldon Jr. ](https://www.amazon.com/Error-Correcting-Codes-Press-Wesley-Peterson/dp/0262527316)[(RUS)](https://urss.ru/cgi-bin/db.pl?lang=RU&blang=ru&page=Book&id=25150) 
 
-Algorithms and Data structures: [Algorithms by Dasgupta, Papadimitriou, Vazirani](http://algorithmics.lsi.upc.edu/docs/Dasgupta-Papadimitriou-Vazirani.pdf) [(RUS);](http://old.math.nsc.ru/LBRT/k5/OR-MMF/dasgupta_2014.pdf) [Grokking Algorithms by Aditya Bhargava](https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230) [(RUS);](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=241155) [Introduction to Algorithms by Cormen, Thomas H.; Leiserson, Charles E.; Rivest, Ronald L ](https://www.amazon.com/Introduction-Algorithms-Leiserson-published-Hardcover/dp/B008F1DKXU)[(RUS)](https://urss.ru/cgi-bin/db.pl?lang=RU&blang=ru&page=Book&id=263917)
+Algorithms and Data structures: [Algorithms by Dasgupta, Papadimitriou, Vazirani](https://www.amazon.com/Algorithms-Sanjoy-Dasgupta/dp/0073523402/ref=sr_1_1?sr=8-1) [(RUS);](https://biblio.mccme.ru/node/5066/shop) [Grokking Algorithms by Aditya Bhargava](https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230) [(RUS);](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=241155) [Introduction to Algorithms by Cormen, Thomas H.; Leiserson, Charles E.; Rivest, Ronald L ](https://www.amazon.com/Introduction-Algorithms-Leiserson-published-Hardcover/dp/B008F1DKXU)[(RUS)](https://urss.ru/cgi-bin/db.pl?lang=RU&blang=ru&page=Book&id=263917)
 
 Advanced algorithms: [Advanced algorithms part 1](https://compsciclub.ru/en/courses/advancedalgorithms/2020-autumn/), [part 2](https://compsciclub.ru/en/courses/advanced-algo_part2/2022-spring/).
 
@@ -53,7 +53,7 @@ A Graduate Course in Applied Cryptography: [A Graduate Course in Applied Cryptog
 
 Theoretical foundations of cryptography: [The Foundations of cryptography by Oded Goldreich](https://www.wisdom.weizmann.ac.il/~oded/foc.html)
 
-Elliptic curve cryptography: [Elliptic Curves, Number Theory, and Cryptography by LAWRENCE C. WASHINGTON](https://people.cs.nctu.edu.tw/~rjchen/ECC2012S/Elliptic%20Curves%20Number%20Theory%20And%20Cryptography%202n.pdf)
+Elliptic curve cryptography: [Elliptic Curves, Number Theory, and Cryptography by LAWRENCE C. WASHINGTON](https://www.amazon.com/Elliptic-Curves-Cryptography-Mathematics-Applications/dp/1420071467/ref=sr_1_1?sr=8-1)
 
 Provable security: [The Joy of cryptography by Mike Rosulek](https://joyofcryptography.com/)
 
@@ -66,14 +66,13 @@ Multiparty Computation and Secret Sharing: [Secure Multiparty Computation and Se
 Zero Knowledge: [Proofs, Arguments, and Zero-Knowledge by Justin Thaler](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
 
 Quantum computations: [Quantum Computation and Quantum Information from CS teacher;](https://www.cs.cmu.edu/~odonnell/quantum18/)
-[Quantum Computation and Quantum Information by Michael A. Nielsen & Isaac L. Chuang (](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf)[RUS](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=42739)
+[Quantum Computation and Quantum Information by Michael A. Nielsen & Isaac L. Chuang (](https://www.amazon.com/Quantum-Computation-Information-10th-Anniversary/dp/1107002176/ref=sr_1_1?sr=8-1)[RUS](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=42739)
 
 Overview of Post-quantum cryptography: [Post-Quantum Cryptography, Editors: Daniel J. Bernstein, Johannes Buchmann, Erik Dahmen](https://link.springer.com/book/10.1007/978-3-540-88702-7?source=shoppingads&locale=en-nl&gclid=Cj0KCQjwhsmaBhCvARIsAIbEbH5jPkHfUy18YvFXo8BYA-mIMSj1CcfGE4ZY12Dkvvn8WTXGK-u2QmoaAjN3EALw_wcB#toc)
 
 ___
 
 Rust:
-------
 
 [The Rust Programming Language by Steve Klabnik, Carol Nichols, and Chris Krycho](https://doc.rust-lang.org/book/title-page.html#the-rust-programming-language) -  The Rust Programming Language, an introductory book about Rust. 
 
@@ -90,10 +89,10 @@ Rust:
 [Elliptic Curve Cryptography in Rust](https://www.udemy.com/course/elliptic-curve-cryptography-in-rust/?couponCode=ST15MT20425G1) - This course teaches you how elliptic curve groups work together with finite fields and how to implement a Rust library from scratch to perform basic groups' operations.
 
 [Zero-Knowledge Proofs in Rust](https://www.udemy.com/course/zero-knowledge-proofs-in-rust/) - This Zero-Knowledge Proof course in Rust is designed to learn how to implement a cryptography ZKP algorithm and use it in real-world applications for user registration and authentication.
+
 ___
 
 Good links:
-------
 
 [International Association for Cryptologic Research](https://iacr.org/) - There, you can find information about good schools, conferences, workshops, job offers, Ph.D. and PostDoc positions, and more.
 
@@ -101,9 +100,9 @@ Good links:
 
 [Crypto Stack Exchange](https://crypto.stackexchange.com/)
 
-[Russian forum on math related topics](dxdy.ru)
+[Russian forum on math related topics](https://dxdy.ru)
 
-Courses in Computer science: [Computer Science club](https://compsciclub.ru/en/courses/)
+[Computer Science club courses](https://compsciclub.ru/en/courses/)
 
 [Survey on Hash-based cryptography](https://huelsing.net/wordpress/?page_id=165)
 
@@ -113,16 +112,13 @@ Courses in Computer science: [Computer Science club](https://compsciclub.ru/en/c
 
 [Basic Lattice Cryptography: The concepts behind Kyber (ML-KEM) and Dilithium (ML-DSA)](https://eprint.iacr.org/2024/1287.pdf)
 
+[Cryptography for Big Data Security Book Chapter for Big Data: Storage, Sharing, and Security](http://www.c-is.cn/wp-content/uploads/2017/05/Cryptography-for-Big-Data-Security.pdf) - Survey on modern applications of cryptography: Attribute-based encryption, Searchable encryption, Multi-party computations, Homomorphic encryption, Verifiable Computation, Functional encryption.
 
-Survey on modern applications of cryptography: Attribute-based encryption, Searchable encryption, Multi-party computations, Homomorphic encryption, Verifiable Computation, Functional encryption: [Cryptography for Big Data Security Book Chapter for Big Data: Storage, Sharing, and Security](http://www.c-is.cn/wp-content/uploads/2017/05/Cryptography-for-Big-Data-Security.pdf)
-
-Homomorphic encryption: [Good paper to start with](https://eprint.iacr.org/2021/1402.pdf); [ZAMA tutorials and documentations](https://github.com/zama-ai)
-
+[Homomorphic encryption: Good paper to start with](https://eprint.iacr.org/2021/1402.pdf); [ZAMA tutorials and documentations](https://github.com/zama-ai)
 
 ___
 
 Some less severe content:
-------
 
 [3Blue1Brown](https://www.youtube.com/c/3blue1brown) - Youtube channel on different mathematical topics 
 
@@ -133,9 +129,20 @@ Some less severe content:
 [Security. Cryptography. Whatever ](https://open.spotify.com/show/0bMJ5a7e4er7yDHMuGs9jp)- Podcast on cryptography
 
 [Zero Knowledge Podcast](https://zeroknowledge.fm/) - Podcast about decentralization and technology, open source communities & ZK proofs
+
 ___
 
-Cryptography olympiads, CTF, online platforms: [NSUcrypto](https://nsucrypto.nsu.ru/), [CryptoCTF](https://cr.yp.toc.tf/), [CryptoHack](https://cryptohack.org/), [Cryptopals](https://cryptopals.com/), [MysteryTwister](https://mysterytwister.org/home/welcome/)
+Cryptography olympiads, CTF, online platforms: 
+
+[NSUcrypto](https://nsucrypto.nsu.ru/) 
+
+[CryptoHack](https://cryptohack.org/)
+
+[CryptoCTF](https://cr.yp.toc.tf/)
+
+[Cryptopals](https://cryptopals.com/
+
+[MysteryTwister](https://mysterytwister.org/home/welcome/)
 
 ___
 
