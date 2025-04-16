@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
+
 Overview
 ======
 Final-year Ph.D. candidate with 7 years of experience in cryptography, specializing in post-quantum cryptography, provable security, and blockchain. Contributed to NIST's standardization process as a member of the SPHINCS+ team and published in top-tier venues like IEEE S&P and AsiaCrypt. Led research teams at the Russian Quantum Center, focusing on quantum-resistant cryptographic schemes and their applications in blockchain and secure communication. 
