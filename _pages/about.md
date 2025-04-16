@@ -50,5 +50,5 @@ I’ve also reviewed papers for major conferences including Eurocrypt, SAC, and 
 
 -  Multiple first-place wins at the **NSUCRYPTO** International Olympiad in Cryptography  
 -  Member of the **SPHINCS+ team**  
--  Speaker at **NIST** and **University of Bristol** workshops on cryptography  
--  Co-author on patents for attribute-based encryption schemes
+-  Speaker at multiple workshops on cryptography  
+-  Co-author on patents for encryption schemes
