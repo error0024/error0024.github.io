@@ -25,7 +25,9 @@ author:
   avatar           : "profile-git.jpg"
   name             : "Mikhail Kudinov"
   pronouns         : # example: "she/her"  
-  bio              : "Cryptography Researcher | Post-quantum Cryptography | Provable Security"
+  bio              : "Cryptography Researcher |  
+    Post-quantum Cryptography |  
+    Provable Security"
   location         : "Netherlands"
   employer         : "Eindhoven University of Technology"
   uri              : # URL
