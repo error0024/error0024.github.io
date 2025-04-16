@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Cryptography Researcher |  
     Post-quantum Cryptography |  
-    Provable Security|"
+    Provable Security |"
   location         : "Netherlands, Eindhoven"
   employer         : "TU/e"
   uri              : # URL
@@ -35,7 +35,7 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=O4nuTLAAAAAJ&hl=en}{Kudinov Google Scholar"
+  googlescholar    : "https://scholar.google.com/citations?user=O4nuTLAAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-8555-4891"
   semantic         : # URL
@@ -79,14 +79,14 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  patents:
-    title: 'Patents'
   published:
-    title: 'Published'    
+    title: 'Published'  
+  techreports:
+    title: 'Technical reports'  
   preprints:
     title: 'Preprints'
-  techreports:
-    title: 'Technical reports'
+  patents:
+    title: 'Patents'
  
   
 
