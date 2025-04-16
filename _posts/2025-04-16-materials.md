@@ -2,6 +2,10 @@
 title: 'Materials that I can suggest for Cryptography and Computer Science'
 date: 2025-04-16
 permalink: /posts/2025/04/materials/
+tags:
+  - materials
+  - cryptography
+  - education
 ---
 
 These books and other materials helped my study of cryptography. If there is an English version of the book/paper - I first give a link to that book, if there is a Russian version - the link is given in a tag "RUS". Some materials are only in Russian, some are only in English. The links are intended to give more details about the book/paper and not as an advertisement for any platform/shop. I am sure someone would prefer a different book or material on some topics - the following list is what I **used and liked** during my work and  studies. 
