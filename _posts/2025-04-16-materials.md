@@ -140,7 +140,7 @@ Cryptography olympiads, CTF, online platforms:
 
 [CryptoCTF](https://cr.yp.toc.tf/)
 
-[Cryptopals](https://cryptopals.com/
+[Cryptopals](https://cryptopals.com/)
 
 [MysteryTwister](https://mysterytwister.org/home/welcome/)
 
