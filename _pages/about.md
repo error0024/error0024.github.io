@@ -7,11 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# About Me
-
-Hi, I’m **Mikhail Kudinov** — a cryptography researcher currently based in Eindhoven, Netherlands. I’m in the final year of my PhD at Eindhoven University of Technology, working under the guidance of Dr. Andreas Hülsing. My research focuses on **post-quantum cryptography**, **provable security**, and **blockchain applications**.
-
-
 Hello! I'm **Mikhail Kudinov**, a cryptographer and security researcher with a deep passion for post-quantum cryptography, provable security, and building efficient, real-world cryptographic systems. Currently, I’m a PhD candidate at **Eindhoven University of Technology**, where I work under the supervision of Dr. Andreas Hülsing.
 
 My work sits at the intersection of theory and practice — I’m driven by a desire to make cryptography not just provably secure, but also practical, scalable, and ready for the post-quantum era. Over the years, I’ve collaborated with both academic researchers and industry leaders, including the **Ethereum Foundation**, to help design cryptographic protocols that are resilient to quantum attacks while remaining efficient for deployment.
