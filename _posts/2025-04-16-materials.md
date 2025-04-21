@@ -99,6 +99,7 @@ Hash-based Cryptography:
 [Recovering the tight security proof of SPHINCS+](https://eprint.iacr.org/2022/346.pdf)
 
 [SPHINCS+C: Compressing SPHINCS+ With (Almost) No Cost](https://eprint.iacr.org/2022/778)
+
 ___
 
 Zero Knowledge:
