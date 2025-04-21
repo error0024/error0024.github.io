@@ -80,6 +80,8 @@ Lattice-based Cryptography:
 
 [A survey on the security of the lattice-based NIST finalists](https://eprint.iacr.org/2025/304.pdf)
 
+[Lattice Attacks on NTRU and LWE: A History of Refinements](https://eprint.iacr.org/2021/799)
+
 ___
 
 Hash-based Cryptography:
