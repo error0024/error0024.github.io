@@ -63,14 +63,58 @@ Key Establishment: [Protocols for Authentication and Key Establishment by Colin 
 
 Multiparty Computation and Secret Sharing: [Secure Multiparty Computation and Secret Sharing by Ronald Cramer, Ivan Bjerre Damgård, Jesper Buus Nielsen ](https://www.amazon.com/Secure-Multiparty-Computation-Secret-Sharing/dp/1107043050)
 
-Zero Knowledge: [Proofs, Arguments, and Zero-Knowledge by Justin Thaler](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
-
 Quantum computations: [Quantum Computation and Quantum Information from CS teacher;](https://www.cs.cmu.edu/~odonnell/quantum18/)
 [Quantum Computation and Quantum Information by Michael A. Nielsen & Isaac L. Chuang (](https://www.amazon.com/Quantum-Computation-Information-10th-Anniversary/dp/1107002176/ref=sr_1_1?sr=8-1)[RUS](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=42739)
 
 Overview of Post-quantum cryptography: [Post-Quantum Cryptography, Editors: Daniel J. Bernstein, Johannes Buchmann, Erik Dahmen](https://link.springer.com/book/10.1007/978-3-540-88702-7?source=shoppingads&locale=en-nl&gclid=Cj0KCQjwhsmaBhCvARIsAIbEbH5jPkHfUy18YvFXo8BYA-mIMSj1CcfGE4ZY12Dkvvn8WTXGK-u2QmoaAjN3EALw_wcB#toc)
 
 ___
+
+Lattice-based Cryptography:
+
+[The Lattice Club](https://thelatticeclub.com/)
+
+[A Decade of Lattice Cryptography](https://eprint.iacr.org/2015/939.pdf)
+
+[Basic Lattice Cryptography: The concepts behind Kyber (ML-KEM) and Dilithium (ML-DSA)](https://eprint.iacr.org/2024/1287.pdf)
+
+[A survey on the security of the lattice-based NIST finalists](https://eprint.iacr.org/2025/304.pdf)
+
+___
+
+Hash-based Cryptography:
+
+[Survey on Hash-based cryptography](https://huelsing.net/wordpress/?page_id=165)
+
+[SPHINCS+ resources](https://sphincs.org/resources.html)
+
+[WOTS+](https://eprint.iacr.org/2017/965)
+
+[XMSS](https://huelsing.net/wordpress/wp-content/uploads/2013/05/mssgesamt.pdf)
+
+[Mitigating Multi-Target Attacks in Hash-based Signatures](https://eprint.iacr.org/2015/1256.pdf)
+
+[SPHINCS+](https://sphincs.org/data/sphincs+-paper.pdf)
+
+[Recovering the tight security proof of SPHINCS+](https://eprint.iacr.org/2022/346.pdf)
+
+[SPHINCS+C: Compressing SPHINCS+ With (Almost) No Cost](https://eprint.iacr.org/2022/778)
+___
+
+Zero Knowledge:
+
+[Proofs, Arguments, and Zero-Knowledge by Justin Thaler](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
+
+[The MoonMath Manual](https://github.com/LeastAuthority/moonmath-manual?tab=readme-ov-file) - The MoonMath Manual is a resource for anyone interested in understanding and unlocking the potential of zk-SNARKs, from beginners to experts.
+
+[ZK Bug Tracker](https://github.com/0xPARC/zk-bug-tracker?ref=reilabs.io)
+
+[ZK Whiteboard Sessions - S1](https://www.youtube.com/playlist?list=PLj80z0cJm8QErn3akRcqvxUsyXWC81OGq)
+
+[ZK Whiteboard Sessions - S2](https://www.youtube.com/playlist?list=PLzdJdAunCamkxvFeF6McbZGqqSEpWQZ0Q)
+
+___
+
 
 Rust:
 
@@ -104,13 +148,7 @@ Good links:
 
 [Computer Science club courses](https://compsciclub.ru/en/courses/)
 
-[Survey on Hash-based cryptography](https://huelsing.net/wordpress/?page_id=165)
-
 [Survey on Code-based cryptography](https://arxiv.org/pdf/2201.07119v2.pdf)
-
-[Lattice-based cryptography](https://thelatticeclub.com/)
-
-[Basic Lattice Cryptography: The concepts behind Kyber (ML-KEM) and Dilithium (ML-DSA)](https://eprint.iacr.org/2024/1287.pdf)
 
 [Cryptography for Big Data Security Book Chapter for Big Data: Storage, Sharing, and Security](http://www.c-is.cn/wp-content/uploads/2017/05/Cryptography-for-Big-Data-Security.pdf) - Survey on modern applications of cryptography: Attribute-based encryption, Searchable encryption, Multi-party computations, Homomorphic encryption, Verifiable Computation, Functional encryption.
 
@@ -124,7 +162,7 @@ Some less severe content:
 
 [Numberphile](https://www.youtube.com/c/numberphile) - Youtube channel on various mathematical topics 
 
-[Cryptography FM by Nadim Kobeissi](https://open.spotify.com/show/1ciE4GRoi23BQ3R7kMUTjY) - Podcast on cryptography 
+[Cryptography FM](https://open.spotify.com/show/1ciE4GRoi23BQ3R7kMUTjY) - Podcast on cryptography 
 
 [Security. Cryptography. Whatever ](https://open.spotify.com/show/0bMJ5a7e4er7yDHMuGs9jp)- Podcast on cryptography
 
