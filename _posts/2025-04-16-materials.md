@@ -110,12 +110,15 @@ Zero Knowledge:
 
 [The MoonMath Manual](https://github.com/LeastAuthority/moonmath-manual?tab=readme-ov-file) - The MoonMath Manual is a resource for anyone interested in understanding and unlocking the potential of zk-SNARKs, from beginners to experts.
 
+[ZK acronyms](https://zkjargon.github.io/foreword.html) - The ZK Jargon Decoder aims to be a dictionary and reference guide for common jargon found in cryptography and the zero-knowledge literature.
+
 [ZK Bug Tracker](https://github.com/0xPARC/zk-bug-tracker?ref=reilabs.io)
 
 [ZK Whiteboard Sessions - S1](https://www.youtube.com/playlist?list=PLj80z0cJm8QErn3akRcqvxUsyXWC81OGq)
 
 [ZK Whiteboard Sessions - S2](https://www.youtube.com/playlist?list=PLzdJdAunCamkxvFeF6McbZGqqSEpWQZ0Q)
 
+[ZK news](https://news.zksecurity.xyz/) 
 ___
 
 

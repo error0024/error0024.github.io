@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm **Mikhail Kudinov**, a cryptographer and security researcher with a deep passion for post-quantum cryptography, provable security, and building efficient, real-world cryptographic systems. Currently, I’m a PhD candidate at **Eindhoven University of Technology**, where I work under the supervision of Dr. Andreas Hülsing.
+Hello! I'm **Mikhail Kudinov**, a cryptographer and security researcher with a deep passion for post-quantum cryptography, provable security, and building efficient, real-world cryptographic systems. I am running a Consultancy as "Kudinov Cryptography Research". If you wish for a consultancy in the cryptography area - feel free to contact me. 
 
-My work sits at the intersection of theory and practice — I’m driven by a desire to make cryptography not just provably secure, but also practical, scalable, and ready for the post-quantum era. Over the years, I’ve collaborated with both academic researchers and industry leaders, including the **Ethereum Foundation**, to help design cryptographic protocols that are resilient to quantum attacks while remaining efficient for deployment.
+[comment]: <> (Currently, I’m a PhD candidate at **Eindhoven University of Technology**, where I work under the supervision of Dr. Andreas Hülsing.)
+
+My expertise sits at the intersection of theory and practice — I’m driven by a desire to make cryptography not just provably secure, but also practical, scalable, and ready for the post-quantum era. Over the years, I’ve collaborated with both academic researchers and industry leaders, including the **Blockstream**, **Ethereum Foundation**, and **NIST** to help design cryptographic protocols that are resilient to quantum attacks while remaining efficient for deployment.
 
 Before my PhD, I worked at the **Russian Quantum Center**, where I led teams on applied cryptography projects, developed secure communication protocols, and contributed to shaping cryptographic infrastructures for critical systems. I regularly participate in cryptographic competitions and have multiple wins at international contests like **NSUCRYPTO**.
 
@@ -29,6 +31,7 @@ Outside of research, I enjoy solving math puzzles, engaging with the cryptograph
 
 Over the last 7+ years, I’ve:
 
+- Consulted **Blockstream** on post-quantum security for Bitcoin.
 - Published extensively at top-tier venues such as **IEEE S&P** and **ASIACRYPT**.
 - Contributed to the **SPHINCS+** signature scheme — now standardized by **NIST**.
 - Collaborated with the **Ethereum Foundation** on integrating hash-based multi-signatures into post-quantum infrastructure.
