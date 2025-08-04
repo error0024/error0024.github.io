@@ -19,7 +19,11 @@ Final-year Ph.D. candidate with 7 years of experience in cryptography, specializ
 
 Work experience
 ======
-* Jul 2021 ‑ Present: Researcher. PhD Candidate.
+* Aug 2025 ‑ Present: Cryptography Consultant
+  * Blockstream
+  * Post-quantum cryptography for Bitcoin.
+
+* Jul 2021 ‑ Oct 2025: Researcher. PhD Candidate.
   * Eindhoven University of Technology
   * Conducted research in post‑quantum cryptography, hash‑based signatures, and key encapsulation mechanisms.
   * Published 6+ papers, including publications in top‑tier conferences like IEEE S&P and AsiaCrypt, and collaborated with the
