@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm **Mikhail Kudinov**, a cryptographer and security researcher with a deep passion for post-quantum cryptography, provable security, and building efficient, real-world cryptographic systems. I am running a Consultancy as "Kudinov Cryptography Research". If you wish for a consultancy in the cryptography area - feel free to contact me. 
+Hello! I'm **Mikhail Kudinov**, a cryptographer and security researcher with a deep passion for post-quantum cryptography, provable security, and building efficient, real-world cryptographic systems. I run **Kudinov Cryptography Research**, offering specialized consultancy services in cryptography. Whether you need cryptographic protocol design, security analysis, or implementation guidance, I provide expert insights tailored to your needs.
+For inquiries or collaboration opportunities, feel free to reach out.
 
 [comment]: <> (Currently, I’m a PhD candidate at **Eindhoven University of Technology**, where I work under the supervision of Dr. Andreas Hülsing.)
 
