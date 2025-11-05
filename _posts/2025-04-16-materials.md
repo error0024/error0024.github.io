@@ -42,6 +42,8 @@ Computer security: [Hacking: The Art of Exploitation by Jon Erickson](https://ww
 
 Algorithms for Cryptography: [Введение в теоретико-чиcловые методы криптографии - Глухов М.М.;](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=291665)[ Prime Numbers: A Computational Perspective by Richard Crandall, Carl B. Pomerance;](https://www.amazon.com/Prime-Numbers-Computational-Richard-Crandall/dp/0387252827) [(RUS);](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=123740)[ Number-theoretic Algorithms in Cryptography by O.N. Vasilenko ](https://www.amazon.com/Number-theoretic-Algorithms-Cryptography-Translations-Mathematical/dp/0821840908)[(RUS);](https://urss.ru/cgi-bin/db.pl?lang=RU&blang=ru&page=Book&id=78704)
 
+Specific Algorithms: [A Complete Beginner Guide to the Number Theoretic Transform](https://eprint.iacr.org/2024/585.pdf); [Johnson–Lindenstrauss Transforms](https://arxiv.org/pdf/2103.00564); [Quantum Fourier Transform](https://www.youtube.com/playlist?list=PLldN_DpkXL3Y2QicGLYL6S1B5CFU020wE); 
+
 Boolean functions: [Ирина Панкратова: Булевы функции в криптографии.;](https://www.labirint.ru/books/684333/) [Boolean Functions in Coding Theory and Cryptography (Translations of Mathematical Monographs) by O. A. Logachev, A. A. Salnikov, V. V. Yashchenko;](https://www.amazon.com/Functions-Cryptography-Translations-Mathematical-Monographs/dp/0821846809)[(RUS)](https://biblio.mccme.ru/node/29224)[ 2 Videos - Analysis of Boolean Functions by Eyan O'Donnell; ](https://www.youtube.com/watch?v=DebrwgWmToc)
 
 Cryptography overview:[ Practical Cryptography by Niels Ferguson, Bruce Schneier](https://www.amazon.com/Practical-Cryptography-Niels-Ferguson/dp/0471223573)
@@ -117,6 +119,9 @@ Zero Knowledge:
 [ZK Whiteboard Sessions - S1](https://www.youtube.com/playlist?list=PLj80z0cJm8QErn3akRcqvxUsyXWC81OGq)
 
 [ZK Whiteboard Sessions - S2](https://www.youtube.com/playlist?list=PLzdJdAunCamkxvFeF6McbZGqqSEpWQZ0Q)
+
+[ZK Whiteboard Sessions - S3](https://www.youtube.com/playlist?list=PLj80z0cJm8QHo_SdrQZ15T-K5tH6SjIcl)
+
 
 [ZK news](https://news.zksecurity.xyz/) 
 ___
