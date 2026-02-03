@@ -1,7 +1,7 @@
 ---
 title: 'Materials that I can suggest for Cryptography and Computer Science'
-date: 2025-04-16
-permalink: /posts/2025/04/materials/
+date: 2026-02-03
+permalink: /posts/2026/02/materials/
 tags:
   - materials
   - cryptography
@@ -70,23 +70,38 @@ Quantum computations: [Quantum Computation and Quantum Information from CS teach
 
 Overview of Post-quantum cryptography: [Post-Quantum Cryptography, Editors: Daniel J. Bernstein, Johannes Buchmann, Erik Dahmen](https://link.springer.com/book/10.1007/978-3-540-88702-7?source=shoppingads&locale=en-nl&gclid=Cj0KCQjwhsmaBhCvARIsAIbEbH5jPkHfUy18YvFXo8BYA-mIMSj1CcfGE4ZY12Dkvvn8WTXGK-u2QmoaAjN3EALw_wcB#toc)
 
+[Survey on Code-based cryptography](https://arxiv.org/pdf/2201.07119v2.pdf)
+
+[Cryptography for Big Data Security Book Chapter for Big Data: Storage, Sharing, and Security](http://www.c-is.cn/wp-content/uploads/2017/05/Cryptography-for-Big-Data-Security.pdf) - Survey on modern applications of cryptography: Attribute-based encryption, Searchable encryption, Multi-party computations, Homomorphic encryption, Verifiable Computation, Functional encryption.
+
+[Homomorphic encryption: Good paper to start with](https://eprint.iacr.org/2021/1402.pdf); [ZAMA tutorials and documentations](https://github.com/zama-ai)
+
 ___
 
 Lattice-based Cryptography:
 
 [The Lattice Club](https://thelatticeclub.com/)
 
+[Basic Lattice Cryptography: The concepts behind Kyber (ML-KEM) and Dilithium (ML-DSA)](https://eprint.iacr.org/2024/1287.pdf)
+
 [A Decade of Lattice Cryptography](https://eprint.iacr.org/2015/939.pdf)
 
-[Basic Lattice Cryptography: The concepts behind Kyber (ML-KEM) and Dilithium (ML-DSA)](https://eprint.iacr.org/2024/1287.pdf)
+[How to Use a Short Basis: Trapdoors for Hard Lattices and New Cryptographic Constructions](https://eprint.iacr.org/2007/432.pdf)
+
+[Trapdoors for Lattices: Simpler, Tighter, Faster, Smaller](https://eprint.iacr.org/2011/501.pdf)
 
 [A survey on the security of the lattice-based NIST finalists](https://eprint.iacr.org/2025/304.pdf)
 
 [Lattice Attacks on NTRU and LWE: A History of Refinements](https://eprint.iacr.org/2021/799)
 
+[Complexity of Lattice Problems](https://link.springer.com/book/10.1007/978-1-4615-0897-7) by Daniele Micciancio and Shafi Goldwasser: rather a mathematical introduction to lattices with a detailed analysis of attacks on them.
+
+
 ___
 
 Hash-based Cryptography:
+
+[A survey of modern techniques and schemes in Hash-based cryptography](https://eprint.iacr.org/2025/2203.pdf)
 
 [Survey on Hash-based cryptography](https://huelsing.net/wordpress/?page_id=165)
 
@@ -110,6 +125,8 @@ Zero Knowledge:
 
 [Proofs, Arguments, and Zero-Knowledge by Justin Thaler](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
 
+[Building Cryptographic Proofs from Hash Functions](https://snargsbook.org/) by Alessandro Chiesa and Eylon Yogev. This book includes discussions and analyses of notable constructions of SNARGs (succinct non-interactive arguments) based on ideal hash functions. For example, STARKs (scalable transparent arguments of knowledge) are a popular example of SNARGs based on ideal hash functions. This book is a self-contained reference aimed at people interested in understanding the foundations and constructions of succinct arguments.
+
 [The MoonMath Manual](https://github.com/LeastAuthority/moonmath-manual?tab=readme-ov-file) - The MoonMath Manual is a resource for anyone interested in understanding and unlocking the potential of zk-SNARKs, from beginners to experts.
 
 [ZK acronyms](https://zkjargon.github.io/foreword.html) - The ZK Jargon Decoder aims to be a dictionary and reference guide for common jargon found in cryptography and the zero-knowledge literature.
@@ -121,7 +138,6 @@ Zero Knowledge:
 [ZK Whiteboard Sessions - S2](https://www.youtube.com/playlist?list=PLzdJdAunCamkxvFeF6McbZGqqSEpWQZ0Q)
 
 [ZK Whiteboard Sessions - S3](https://www.youtube.com/playlist?list=PLj80z0cJm8QHo_SdrQZ15T-K5tH6SjIcl)
-
 
 [ZK news](https://news.zksecurity.xyz/) 
 ___
@@ -151,6 +167,8 @@ Good links:
 
 [International Association for Cryptologic Research](https://iacr.org/) - There, you can find information about good schools, conferences, workshops, job offers, Ph.D. and PostDoc positions, and more.
 
+[Security Research & Advanced Cryptography blog posts](https://blog.zksecurity.xyz/)
+
 [Ask questions on cryptography papers](https://askcryp.to/)
 
 [Crypto Stack Exchange](https://crypto.stackexchange.com/)
@@ -159,25 +177,19 @@ Good links:
 
 [Computer Science club courses](https://compsciclub.ru/en/courses/)
 
-[Survey on Code-based cryptography](https://arxiv.org/pdf/2201.07119v2.pdf)
 
-[Cryptography for Big Data Security Book Chapter for Big Data: Storage, Sharing, and Security](http://www.c-is.cn/wp-content/uploads/2017/05/Cryptography-for-Big-Data-Security.pdf) - Survey on modern applications of cryptography: Attribute-based encryption, Searchable encryption, Multi-party computations, Homomorphic encryption, Verifiable Computation, Functional encryption.
-
-[Homomorphic encryption: Good paper to start with](https://eprint.iacr.org/2021/1402.pdf); [ZAMA tutorials and documentations](https://github.com/zama-ai)
-
-___
 
 Some less severe content:
-
-[3Blue1Brown](https://www.youtube.com/c/3blue1brown) - Youtube channel on different mathematical topics 
-
-[Numberphile](https://www.youtube.com/c/numberphile) - Youtube channel on various mathematical topics 
 
 [Cryptography FM](https://open.spotify.com/show/1ciE4GRoi23BQ3R7kMUTjY) - Podcast on cryptography 
 
 [Security. Cryptography. Whatever ](https://open.spotify.com/show/0bMJ5a7e4er7yDHMuGs9jp)- Podcast on cryptography
 
 [Zero Knowledge Podcast](https://zeroknowledge.fm/) - Podcast about decentralization and technology, open source communities & ZK proofs
+
+[3Blue1Brown](https://www.youtube.com/c/3blue1brown) - Youtube channel on different mathematical topics 
+
+[Numberphile](https://www.youtube.com/c/numberphile) - Youtube channel on various mathematical topics 
 
 ___
 
@@ -194,8 +206,6 @@ Cryptography olympiads, CTF, online platforms:
 [MysteryTwister](https://mysterytwister.org/home/welcome/)
 
 ___
-
-[One more list of good cryptography books](https://cronokirby.com/posts/2022/05/some-cryptography-books-i-like/)
 
 [Как написать математическую статью по-ангийски - Сосинский А.Б.](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=281598)
 
