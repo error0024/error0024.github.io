@@ -399,3 +399,32 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+.page__related-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1em;
+    padding: 0.45em 0;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+
+  li:last-child {
+    border-bottom: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.page__related-date {
+  flex-shrink: 0;
+  font-size: $type-size-6;
+  color: var(--global-text-color-light);
+}
