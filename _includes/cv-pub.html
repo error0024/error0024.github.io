@@ -4,7 +4,8 @@
   Your own name in `authors` is bolded automatically.
 {% endcomment %}
 {% include base_path %}
-{% assign pub_title = post.title | remove_last: "." | replace: " -- ", " – " %}
+{% assign pub_title = post.title | strip %}{% assign _last = pub_title | slice: -1, 1 %}{% if _last == "." %}{% assign _n = pub_title | size | minus: 1 %}{% assign pub_title = pub_title | slice: 0, _n %}{% endif %}
+{% assign pub_title = pub_title | replace: " -- ", " – " %}
 {% assign tag = post.venue_short | default: post.venue %}
 {% assign authors = post.authors | replace: "M. Kudinov", "<strong>M. Kudinov</strong>" %}
 <li class="cv-pub">
