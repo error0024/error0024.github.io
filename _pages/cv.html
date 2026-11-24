@@ -121,7 +121,7 @@ redirect_from:
 <h2 class="cv-section">Talks</h2>
 
 {% for post in talks %}
-{% assign t_title = post.title | strip | remove_last: "." %}
+{% assign t_title = post.title | strip %}{% assign _last = t_title | slice: -1, 1 %}{% if _last == "." %}{% assign _n = t_title | size | minus: 1 %}{% assign t_title = t_title | slice: 0, _n %}{% endif %}
 {% assign t_venue = post.venue | strip %}
 <div class="cv-row">
   <div class="cv-date">{{ post.date | date: "%b %Y" }}</div>
