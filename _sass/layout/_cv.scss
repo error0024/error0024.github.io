@@ -189,3 +189,40 @@
     details.cv-more summary { margin-left: 0; }
   }
 }
+
+/* ==========================================================================
+   HOME PAGE  (_pages/about.html)
+   Reuses the CV building blocks (.cv-section, .cv-row, .cv-pub).
+   ========================================================================== */
+
+.cv.home {
+  .cv-lead {
+    font-size: 1.05em;
+    line-height: 1.65;
+    margin: 0 0 0.5em;
+  }
+
+  .cv-row { margin-bottom: 0.65em; }
+
+  /* links inside news items: text colour with an accent underline */
+  .cv-body a {
+    color: var(--global-text-color);
+    text-decoration: underline;
+    text-decoration-color: var(--global-link-color);
+    text-underline-offset: 0.18em;
+    &:hover { color: var(--global-link-color); }
+  }
+
+  .home-more {
+    margin: 0.2em 0 0;
+    padding-left: calc(var(--cv-date-col) + var(--cv-gap));
+    font-size: 0.85em;
+    color: var(--global-text-color-light);
+  }
+
+  details.cv-more { margin-top: 0; }
+
+  @media (max-width: 600px) {
+    .home-more { padding-left: 0; }
+  }
+}

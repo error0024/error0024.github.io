@@ -247,6 +247,15 @@
     white-space: nowrap;
   }
 
+  /* location / employer lines: wrap long text under itself, not under the icon */
+  li.author__desktop {
+    white-space: normal;
+    padding-left: 1.75em;
+    text-indent: -1.75em;
+
+    i { text-indent: 0; }
+  }
+
   a {
     display: block;
     margin-bottom: 5px;

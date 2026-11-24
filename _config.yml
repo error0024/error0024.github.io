@@ -25,11 +25,9 @@ author:
   avatar           : "profile-git.jpg"
   name             : "Mikhail Kudinov"
   pronouns         : # example: "she/her"  
-  bio              : "Cryptography Researcher |  
-    Post-quantum Cryptography |  
-    Provable Security |"
+  bio              : "Post-quantum cryptography · Hash-based signatures · Lattices · Provable security"
   location         : "Netherlands, Eindhoven"
-  employer         : "Freelancer"
+  employer         : "Kudinov Cryptography Research"
   uri              : # URL
   email            : "mishel.kudinov@gmail.com" 
 

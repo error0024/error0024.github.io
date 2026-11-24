@@ -1,0 +1,37 @@
+---
+permalink: /
+title: "About"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+{% include base_path %}
+{% comment %}Currently, I'm a PhD candidate at Eindhoven University of Technology, where I work under the supervision of Dr. Andreas Hülsing.{% endcomment %}
+
+<div class="cv home">
+
+<p class="cv-lead">
+I'm a cryptographer and I run Kudinov Cryptography Research. Most of my work is on hash-based and lattice-based cryptography, and on security proofs for these schemes, for example the FO transform for KEMs and proofs in the quantum random oracle model. I'm on the SPHINCS+ team (SLH-DSA). I consult for Blockstream, where I work on Bitcoin's post-quantum migration, including how hash-based and lattice-based signatures can be integrated into the protocol. I've also worked with the Ethereum Foundation on migration to post-quantum schemes. If you're a student or researcher working on similar problems, <a href="mailto:{{ site.author.email }}">get in touch</a>.
+</p>
+
+<h2 class="cv-section">News</h2>
+
+{% include home-news.html shown=6 %}
+
+<h2 class="cv-section">Selected publications</h2>
+
+{% assign selected = site.publications | where: "selected", true | sort: "date" | reverse %}
+<ul class="cv-pubs">
+{% for post in selected %}{% include cv-pub.html %}{% endfor %}
+</ul>
+<p class="home-more"><a href="{{ base_path }}/publications/">All publications</a></p>
+
+<h2 class="cv-section">Consulting</h2>
+
+<p>
+Through Kudinov Cryptography Research I help companies with post-quantum migration, protocol design and security analysis. If you need help with any of this, <a href="mailto:{{ site.author.email }}">email me</a>.
+</p>
+
+</div>

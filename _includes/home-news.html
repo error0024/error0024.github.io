@@ -1,0 +1,41 @@
+{% comment %}
+  News list on the home page. Merges three sources and sorts them by date:
+    - talks, podcasts and interviews from _talks
+    - preprints from _publications (category: preprints)
+    - anything else from _data/news.yml (e.g. conference papers)
+  The newest `include.shown` items are listed; older ones are folded away.
+  Each item is first written as "YYYY-MM-DD##Mon YYYY##<html>@@" so that a
+  plain string sort puts them in date order.
+{% endcomment %}
+{% include base_path %}
+{%- assign shown = include.shown | default: 6 -%}
+{%- capture news -%}
+{%- for t in site.talks -%}
+{%- assign kind = t.type | default: "Talk" -%}
+{%- if kind == "Workshop" or kind == "Conference" or kind == "Seminar" -%}{%- assign kind = "Talk" -%}{%- endif -%}
+{%- if t.link -%}{%- assign href = t.link -%}{%- else -%}{%- assign href = t.url | prepend: base_path -%}{%- endif -%}
+{%- assign ttitle = t.title | strip -%}{%- assign tlast = ttitle | slice: -1, 1 -%}
+{%- if tlast == "." -%}{%- assign tn = ttitle | size | minus: 1 -%}{%- assign ttitle = ttitle | slice: 0, tn -%}{%- endif -%}
+{%- assign tvenue = t.venue | strip -%}
+{{- t.date | date: "%Y-%m-%d" -}}##{{- t.date | date: "%b %Y" -}}##{{- kind -}}: <a href="{{- href -}}">{{- ttitle | escape -}}</a>{%- if tvenue != "" and tvenue != ttitle -%}<span class="cv-meta"> · {{ tvenue | escape -}}</span>{%- endif -%}@@
+{%- endfor -%}
+{%- for p in site.publications -%}
+{%- if p.category == "preprints" -%}
+{%- assign ptitle = p.title | strip -%}{%- assign plast = ptitle | slice: -1, 1 -%}
+{%- if plast == "." -%}{%- assign pn = ptitle | size | minus: 1 -%}{%- assign ptitle = ptitle | slice: 0, pn -%}{%- endif -%}
+{{- p.date | date: "%Y-%m-%d" -}}##{{- p.date | date: "%b %Y" -}}##New preprint: <a href="{{- p.paperurl | strip -}}">{{- ptitle | escape -}}</a><span class="cv-meta"> · ePrint</span>@@
+{%- endif -%}
+{%- endfor -%}
+{%- for n in site.data.news -%}
+{{- n.date | date: "%Y-%m-%d" -}}##{{- n.date | date: "%b %Y" -}}##{{- n.text | markdownify | remove: "<p>" | remove: "</p>" | strip_newlines | strip -}}@@
+{%- endfor -%}
+{%- endcapture -%}
+{%- assign news = news | strip_newlines | split: "@@" | sort | reverse -%}
+{%- assign cut = shown | plus: 1 -%}
+<div class="home-news">
+{% for item in news %}{% assign parts = item | split: "##" %}{% if forloop.index == cut %}
+<details class="cv-more"><summary>Older news</summary>{% endif %}
+<div class="cv-row"><div class="cv-date">{{ parts[1] }}</div><div class="cv-body">{{ parts[2] }}</div></div>{% if forloop.last and forloop.length >= cut %}
+</details>{% endif %}{% endfor %}
+</div>
+<p class="home-more"><a href="{{ base_path }}/talks/">All talks</a> · <a href="{{ base_path }}/publications/">All publications</a></p>

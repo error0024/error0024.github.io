@@ -1,0 +1,17 @@
+# Extra items for the News list on the home page (_includes/home-news.html).
+# Talks, podcasts and interviews (_talks) and preprints (_publications with
+# category: preprints) are added automatically, so only list things that are
+# neither, e.g. conference papers. `text` may contain Markdown links.
+# The page shows month and year only.
+
+- date: 2026-08-17
+  text: "Paper at CRYPTO 2026: [Aborting Random Oracles: How to Build them, How to Use them](https://eprint.iacr.org/2026/016)"
+
+- date: 2025-12-08
+  text: "Paper at ASIACRYPT 2025: [Hybrid-query bounds with partial input control – framework and application to tight M-eTCR](https://eprint.iacr.org/2025/633)"
+
+- date: 2025-08-17
+  text: "Paper at CRYPTO 2025: [At the Top of the Hypercube – Better Size-Time Tradeoffs for Hash-Based Signatures](https://eprint.iacr.org/2025/889)"
+
+- date: 2025-04-08
+  text: "Paper at PQCrypto 2025: [Treating dishonest ciphertexts in post-quantum KEMs](https://eprint.iacr.org/2025/062)"
