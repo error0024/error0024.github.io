@@ -1,20 +1,30 @@
 /* ==========================================================================
    DARK THEME
+   Near-black reading surface inside a black frame, warm off-white text,
+   neutral greys, and a single gold accent.
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #7a8288;
+$gray                       : #7c7c7c;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
+$light-gray                 : #999999;
 
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+$frame                      : #000000;   // masthead, footer
+$background                 : #1a1a1a;   // page / reading surface
+$surface                    : #242424;   // code, dropdowns, notices, table heads
+$border                     : #333333;
+$border-strong              : #3d3d3d;
+$text                       : #d4d2cb;   // warm off-white body text
+$text-strong                : #f9f8f5;
+$accent                     : #b78a54;   // gold accent
+$accent-light               : #dcad76;
+
+$background-light           : $border-strong;
+$background-lighter         : $surface;
+$link                       : $accent;
+$link-dark                  : $accent-light;
+$link-light                 : $accent;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -35,20 +45,88 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$background};
+    color-scheme                        : dark;
+    --global-base-color                 : #{$border-strong};
     --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$dark-gray};
+    --global-footer-bg-color            : #{$frame};
+    --global-border-color               : #{$border};
+    --global-dark-border-color          : #{$border-strong};
+    --global-code-background-color      : #{$surface};
+    --global-code-text-color            : #{$text};
+    --global-fig-caption-color          : #{$light-gray};
     --global-link-color                 : #{$link};
     --global-link-color-hover           : #{$link-dark};
     --global-link-color-visited         : #{$link-light};
     --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
+    --global-masthead-link-color-hover  : #{$accent};
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$background-lighter};
+    --global-thead-color                : #{$surface};
+}
+
+/* --------------------------------------------------------------------------
+   Dark-only overrides for components that hardcode light colors
+   -------------------------------------------------------------------------- */
+
+html[data-theme="dark"] {
+    background-color: $background;
+
+    ::selection { background: rgba($accent, 0.35); color: $text-strong; }
+
+    /* black frame around the reading surface */
+    .masthead,
+    .greedy-nav,
+    .masthead__menu-item { background: $frame; }
+
+    h1, h2, h3, h4, h5, h6, strong, b { color: $text-strong; }
+
+    /* brand icons whose color is (near-)black */
+    .fa-github, .fa-github-alt, .fa-github-square { color: $text; }
+
+    /* figure caption links */
+    figcaption a:hover { color: $accent-light; border-bottom-color: $accent-light; }
+
+    /* dropdowns: greedy-nav overflow menu and mobile "Follow" menu */
+    .greedy-nav .hidden-links { background: $surface; }
+    .greedy-nav .hidden-links li { background: transparent; }
+    .greedy-nav .hidden-links:after { border-color: $surface transparent; }
+    .author__urls:after { border-color: $background transparent; }
+
+    /* table of contents */
+    .toc { background-color: $surface; }
+    .toc__menu a:hover { color: $background; background: $accent; }
+
+    /* notices: dark card with a colored edge instead of a pastel fill */
+    .notice, .notice--primary, .notice--info, .notice--warning,
+    .notice--success, .notice--danger {
+        background-color: $surface;
+        box-shadow: none;
+        border-left: 3px solid $border-strong;
+        code { background-color: $background; }
+    }
+    .notice--primary { border-left-color: $accent; }
+    .notice--info    { border-left-color: $info-color; }
+    .notice--warning { border-left-color: $warning-color; }
+    .notice--success { border-left-color: $success-color; }
+    .notice--danger  { border-left-color: $danger-color; }
+
+    /* form controls */
+    input, textarea, select {
+        background-color: $surface;
+        color: $text;
+        border-color: $border-strong;
+    }
+
+    /* code blocks: Solarized Dark base tones on the dark surface */
+    div.highlighter-rouge, figure.highlight { box-shadow: none; }
+    div.highlighter-rouge:before, figure.highlight:before {
+        background-color: $border-strong;
+        color: $light-gray;
+    }
+    .highlight { color: #93a1a1; }
+    .highlight {
+        .err, .g, .l, .n, .p, .ge, .go, .gp, .gs, .gt, .ld, .na, .nl,
+        .nn, .nx, .py, .w, .sd, .sh { color: #93a1a1; }
+        .c, .cm, .c1, .sb { color: #6c7f86; }
+    }
 }
