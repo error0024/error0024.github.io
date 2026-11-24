@@ -26,22 +26,75 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Default light theme for the site */
+/* Default light theme for the site:
+   white page inside a black frame (masthead, footer), black text, grey
+   secondary text, and gold as an accent (link underlines, hover). */
+$frame                      : #000000;   // masthead, footer
+$frame-surface              : #1a1a1a;   // dropdowns on the frame
+$frame-text                 : #d4d2cb;
+$frame-text-light           : #999999;
+$page                       : #ffffff;
+$panel                      : #f7f7f7;   // code, table heads
+$ink                        : #000000;
+$ink-light                  : #757575;
+$rule                       : #e6e6e6;
+$rule-strong                : #d4d4d4;
+$gold                       : #b78a54;
+$gold-dark                  : #8a6534;   // readable gold for text on white
+
 :root {
-    --global-base-color                 : #{$gray};
-    --global-bg-color                   : #fff;
-    --global-footer-bg-color            : #f2f3f3;
-    --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #bdc1c4;
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #52adc8;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
-    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
-    --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$lighter-gray};
+    --global-base-color                 : #3d3d3d;
+    --global-bg-color                   : #{$page};
+    --global-footer-bg-color            : #{$frame};
+    --global-border-color               : #{$rule};
+    --global-dark-border-color          : #{$rule-strong};
+    --global-code-background-color      : #{$panel};
+    --global-code-text-color            : #{$ink};
+    --global-fig-caption-color          : #{$ink-light};
+    --global-link-color                 : #{$ink};
+    --global-link-color-hover           : #{$gold-dark};
+    --global-link-color-visited         : #{$ink};
+    --global-masthead-link-color        : #{$frame-text};
+    --global-masthead-link-color-hover  : #{$gold};
+    --global-text-color                 : #{$ink};
+    --global-text-color-light           : #{$ink-light};
+    --global-thead-color                : #{$panel};
+}
+
+/* Light-only overrides */
+html:not([data-theme="dark"]) {
+    background-color: $page;
+
+    ::selection { background: rgba($gold, 0.3); }
+
+    /* black frame: masthead */
+    .masthead,
+    .greedy-nav,
+    .masthead__menu-item { background: $frame; }
+    .masthead::after { background: $frame; }
+
+    .greedy-nav .hidden-links { background: $frame-surface; border-color: $frame-surface; }
+    .greedy-nav .hidden-links li { background: transparent; border-color: #333333; }
+    .greedy-nav .hidden-links a:hover { background: #333333; }
+    .greedy-nav .hidden-links:before,
+    .greedy-nav .hidden-links:after { border-color: $frame-surface transparent; }
+
+    /* black frame: footer */
+    .page__footer {
+        color: $frame-text-light;
+        border-top-color: $frame;
+
+        a { color: $frame-text; }
+        .fas, .fab, .far, .fal { color: $frame-text-light; }
+    }
+
+    /* links in text: black with a gold underline */
+    .page__content a {
+        text-decoration-color: $gold;
+        text-underline-offset: 0.15em;
+        &:hover { color: $gold-dark; text-decoration-color: $gold-dark; }
+    }
+
+    /* code block label */
+    div.highlighter-rouge:before, figure.highlight:before { background-color: $rule; }
 }
