@@ -9,6 +9,6 @@ location: "Online"
 link: "https://youtu.be/C2t1Bhy65Ig"
 ---
 
-Interview with Isabel Foxen Duke (MARA Foundation), together with Jonas Nick, on SHRINCS — the hash-based signature scheme specified by Blockstream Research as a candidate for Bitcoin's first post-quantum signature. We discuss the design of SHRINCS, stateful vs. stateless signing, hardware-wallet safeguards, the comparison with SPHINCS+, security proofs, common criticisms of the scheme, and the path to production through BIPs and libraries.
+Interview with Isabel Foxen Duke (MARA Foundation), together with Jonas Nick, on SHRINCS — a hash-based signature scheme and a candidate for Bitcoin's first post-quantum signature. We discuss the design of SHRINCS, stateful vs. stateless signing, hardware-wallet safeguards, the comparison with SPHINCS+, security proofs, common criticisms of the scheme, and the path to production through BIPs and libraries.
 
 Video: [YouTube](https://youtu.be/C2t1Bhy65Ig)
