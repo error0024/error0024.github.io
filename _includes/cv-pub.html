@@ -1,0 +1,21 @@
+{% comment %}
+  One publication row on the CV page.  Expects `post` (a _publications item).
+  Front-matter fields used: title, authors, venue_short, venue, paperurl, bibtexurl, url.
+  Your own name in `authors` is bolded automatically.
+{% endcomment %}
+{% include base_path %}
+{% assign pub_title = post.title | remove_last: "." | replace: " -- ", " – " %}
+{% assign tag = post.venue_short | default: post.venue %}
+{% assign authors = post.authors | replace: "M. Kudinov", "<strong>M. Kudinov</strong>" %}
+<li class="cv-pub">
+  <span class="cv-venue{% if include.muted %} cv-venue--muted{% endif %}">{{ tag | escape }}</span>
+  <div>
+    <div class="cv-pub-title"><a href="{{ base_path }}{{ post.url }}">{{ pub_title }}</a></div>
+    {% if post.authors %}<div class="cv-authors">{{ authors }}</div>{% endif %}
+    <div class="cv-links">
+      {% if post.venue and post.venue != post.venue_short and post.venue != "ePrint" %}<span class="cv-venue-full">{{ post.venue }}</span>{% endif %}
+      {% if post.paperurl %}<a href="{{ post.paperurl | strip }}">PDF</a>{% endif %}
+      {% if post.bibtexurl %}<a href="{{ post.bibtexurl | strip }}">{% if post.bibtexurl contains "eprint.iacr.org" %}ePrint{% elsif post.bibtexurl contains "fips.ru" %}Patent record{% else %}Publisher{% endif %}</a>{% endif %}
+    </div>
+  </div>
+</li>

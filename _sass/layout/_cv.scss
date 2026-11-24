@@ -1,0 +1,191 @@
+/* ==========================================================================
+   CV PAGE  (_pages/cv.md)
+   Uses only the theme's CSS custom properties, so it follows the
+   light/dark toggle automatically.
+   ========================================================================== */
+
+.cv {
+  --cv-date-col: 7.5rem;
+  --cv-gap: 1.25rem;
+  font-size: 0.95em;
+  line-height: 1.55;
+
+  a { text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ---------- intro ---------- */
+  .cv-lead {
+    font-size: 1.05em;
+    margin: 0 0 1em;
+  }
+
+  .cv-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 0 0 2em;
+  }
+
+  .cv-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45em;
+    padding: 0.35em 0.9em;
+    border: 1px solid var(--global-dark-border-color);
+    border-radius: 999px;
+    font-size: 0.85em;
+    color: var(--global-text-color);
+    &:hover {
+      border-color: var(--global-link-color);
+      color: var(--global-link-color);
+      text-decoration: none;
+    }
+  }
+
+  /* ---------- section headings ---------- */
+  h2.cv-section {
+    margin: 2.2em 0 0.9em;
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid var(--global-border-color);
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--global-link-color);
+  }
+
+  h3.cv-subsection {
+    margin: 1.6em 0 0.6em;
+    font-size: 0.95em;
+    font-weight: 600;
+    color: var(--global-text-color-light);
+  }
+
+  /* ---------- generic dated row: [date | body] ---------- */
+  .cv-row {
+    display: grid;
+    grid-template-columns: var(--cv-date-col) minmax(0, 1fr);
+    column-gap: var(--cv-gap);
+    margin-bottom: 1.15em;
+  }
+
+  .cv-date {
+    padding-top: 0.12em;
+    font-size: 0.82em;
+    color: var(--global-text-color-light);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .cv-title {
+    font-weight: 600;
+    color: var(--global-text-color);
+  }
+
+  .cv-org {
+    color: var(--global-link-color);
+  }
+
+  .cv-meta {
+    font-size: 0.85em;
+    color: var(--global-text-color-light);
+  }
+
+  .cv-body p { margin: 0.25em 0 0; }
+
+  .cv-body ul {
+    margin: 0.35em 0 0;
+    padding-left: 1.1em;
+    li { margin: 0.1em 0; }
+  }
+
+  /* ---------- publications ---------- */
+  .cv-pubs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cv-pub {
+    display: grid;
+    grid-template-columns: var(--cv-date-col) minmax(0, 1fr);
+    column-gap: var(--cv-gap);
+    margin: 0 0 1em;
+  }
+
+  .cv-venue {
+    justify-self: end;
+    align-self: start;
+    margin-top: 0.15em;
+    padding: 0.1em 0.55em;
+    border: 1px solid var(--global-link-color);
+    border-radius: 4px;
+    font-size: 0.72em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--global-link-color);
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .cv-venue--muted {
+    border-color: var(--global-dark-border-color);
+    color: var(--global-text-color-light);
+    font-weight: 500;
+  }
+
+  .cv-pub-title {
+    font-weight: 600;
+    a { color: var(--global-text-color); }
+    a:hover { color: var(--global-link-color); }
+  }
+
+  .cv-authors {
+    font-size: 0.88em;
+    strong { font-weight: 700; }
+  }
+
+  .cv-links {
+    font-size: 0.8em;
+    a { margin-right: 0.8em; }
+    .cv-venue-full { color: var(--global-text-color-light); margin-right: 0.8em; font-style: italic; }
+  }
+
+  details.cv-more {
+    margin: 0.5em 0 0;
+    summary {
+      cursor: pointer;
+      margin-left: calc(var(--cv-date-col) + var(--cv-gap));
+      margin-bottom: 0.8em;
+      font-size: 0.85em;
+      color: var(--global-text-color-light);
+    }
+  }
+
+  /* ---------- chips (skills, reviewing) ---------- */
+  .cv-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35em;
+    margin: 0.1em 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .cv-chip {
+    padding: 0.05em 0.6em;
+    border-radius: 4px;
+    background: var(--global-code-background-color);
+    border: 1px solid var(--global-border-color);
+    font-size: 0.82em;
+  }
+
+  /* ---------- small screens: stack the date above the body ---------- */
+  @media (max-width: 600px) {
+    .cv-row, .cv-pub { grid-template-columns: minmax(0, 1fr); }
+    .cv-date { text-align: left; padding: 0; }
+    .cv-venue { justify-self: start; margin-bottom: 0.3em; }
+    details.cv-more summary { margin-left: 0; }
+  }
+}

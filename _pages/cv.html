@@ -1,0 +1,190 @@
+---
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
+{% include base_path %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% assign talks = site.talks | sort: "date" | reverse %}
+
+<div class="cv">
+
+<p class="cv-lead">
+  Cryptographer working on post-quantum cryptography and provable security, with 8+ years of research
+  and leadership experience. Member of the SPHINCS+ team behind the NIST standard SLH-DSA; working on
+  post-quantum signatures for Bitcoin at Blockstream, and previously with the Ethereum Foundation on
+  post-quantum Ethereum.
+</p>
+
+<div class="cv-actions">
+  <a class="cv-btn" href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
+  <a class="cv-btn" href="{{ site.author.orcid }}">ORCID</a>
+  <a class="cv-btn" href="mailto:{{ site.author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
+</div>
+
+<!-- ================================================================== -->
+<h2 class="cv-section">Experience</h2>
+
+<div class="cv-row">
+  <div class="cv-date">Aug 2025 – now</div>
+  <div class="cv-body">
+    <span class="cv-title">Cryptography R&amp;D</span> · <span class="cv-org">Blockstream</span>
+    <div class="cv-meta">Remote, Netherlands</div>
+    <ul>
+      <li>Research on migrating Bitcoin to post-quantum cryptography.</li>
+      <li>Design and benchmarking of quantum-resistant signature schemes; contributions to BIPs.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="cv-row">
+  <div class="cv-date">Jul 2021 – Jul 2025</div>
+  <div class="cv-body">
+    <span class="cv-title">Researcher (Ph.D. candidate)</span> · <span class="cv-org">Eindhoven University of Technology</span>
+    <div class="cv-meta">Eindhoven, Netherlands · with Andreas Hülsing</div>
+    <ul>
+      <li>Post-quantum cryptography: hash-based signatures, KEMs, QROM proofs.</li>
+      <li>Contributed to the NIST standard SLH-DSA as a member of the SPHINCS+ team.</li>
+      <li>Collaborated with the Ethereum Foundation on post-quantum signatures; TA for Cryptology and Applied Cryptography.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="cv-row">
+  <div class="cv-date">Oct 2018 – Mar 2022</div>
+  <div class="cv-body">
+    <span class="cv-title">Lead Researcher</span> <span class="cv-meta">(Researcher until Sep 2020)</span> · <span class="cv-org">Russian Quantum Center</span>
+    <div class="cv-meta">Moscow, Russia</div>
+    <ul>
+      <li>Led a 3-person research team: 4+ publications, a patent, and international talks.</li>
+      <li>Proof-of-concept implementations; advised companies on post-quantum migration.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ================================================================== -->
+<h2 class="cv-section">Education</h2>
+
+<div class="cv-row">
+  <div class="cv-date">2021 – 2025</div>
+  <div class="cv-body">
+    <span class="cv-title">Ph.D. in Cryptography</span> · <span class="cv-org">Eindhoven University of Technology</span>
+    <div class="cv-meta">Supervisor: Andreas Hülsing</div>
+  </div>
+</div>
+
+<div class="cv-row">
+  <div class="cv-date">2015 – 2021</div>
+  <div class="cv-body">
+    <span class="cv-title">Specialist in Computer Security</span> · <span class="cv-org">Bauman Moscow State Technical University</span>
+    <div class="cv-meta">Six-year degree (B.Sc. + M.Sc. equivalent) · Thesis on attribute-based encryption</div>
+  </div>
+</div>
+
+<!-- ================================================================== -->
+<h2 class="cv-section">Publications</h2>
+
+<ul class="cv-pubs">
+{% for post in pubs %}{% assign y = post.date | date: "%Y" | plus: 0 %}{% if post.category == "published" and y >= 2022 %}
+  {% include cv-pub.html %}
+{% endif %}{% endfor %}
+</ul>
+
+<details class="cv-more">
+  <summary>Earlier publications (2019–2021)</summary>
+  <ul class="cv-pubs">
+  {% for post in pubs %}{% assign y = post.date | date: "%Y" | plus: 0 %}{% if post.category == "published" and y < 2022 %}
+    {% include cv-pub.html muted=true %}
+  {% endif %}{% endfor %}
+  </ul>
+</details>
+
+<h3 class="cv-subsection">Preprints</h3>
+<ul class="cv-pubs">
+{% for post in pubs %}{% if post.category == "preprints" %}
+  {% include cv-pub.html muted=true %}
+{% endif %}{% endfor %}
+</ul>
+
+<h3 class="cv-subsection">Technical reports &amp; patents</h3>
+<ul class="cv-pubs">
+{% for post in pubs %}{% if post.category == "techreports" or post.category == "patents" %}
+  {% include cv-pub.html muted=true %}
+{% endif %}{% endfor %}
+</ul>
+
+<!-- ================================================================== -->
+<h2 class="cv-section">Talks</h2>
+
+{% for post in talks %}
+{% assign t_title = post.title | strip | remove_last: "." %}
+{% assign t_venue = post.venue | strip %}
+<div class="cv-row">
+  <div class="cv-date">{{ post.date | date: "%b %Y" }}</div>
+  <div class="cv-body">
+    <a class="cv-title" href="{{ base_path }}{{ post.url }}">{{ t_title }}</a>
+    <div class="cv-meta">{% if post.type %}{{ post.type }}{% endif %}{% if t_venue != "" and t_venue != t_title %} · {{ t_venue }}{% endif %}{% if post.location %} · {{ post.location }}{% endif %}</div>
+  </div>
+</div>
+{% endfor %}
+
+<!-- ================================================================== -->
+<h2 class="cv-section">Service</h2>
+
+<div class="cv-row">
+  <div class="cv-date">2026</div>
+  <div class="cv-body"><span class="cv-title">Program Committee</span>, ASIACRYPT 2026 <span class="cv-meta">(post-quantum cryptography)</span></div>
+</div>
+
+<div class="cv-row">
+  <div class="cv-date">2022 – 2024</div>
+  <div class="cv-body">
+    <span class="cv-title">External reviewer</span>
+    <ul class="cv-chips">
+      <li class="cv-chip">EUROCRYPT 2023</li>
+      <li class="cv-chip">PKC 2023</li>
+      <li class="cv-chip">CT-RSA 2023</li>
+      <li class="cv-chip">SAC 2022, 2024</li>
+      <li class="cv-chip">PQCrypto 2022</li>
+      <li class="cv-chip">Journal of Cryptology</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ================================================================== -->
+<h2 class="cv-section">Honors</h2>
+
+<div class="cv-row">
+  <div class="cv-date">2019 – 2023</div>
+  <div class="cv-body">
+    <span class="cv-title">International Olympiad in Cryptography NSUCRYPTO</span>
+    <div class="cv-meta">1st place, team round (2019, 2020, 2021, 2023) · 1st place, individual round (2019)</div>
+  </div>
+</div>
+
+<!-- ================================================================== -->
+<h2 class="cv-section">Skills</h2>
+
+<div class="cv-row">
+  <div class="cv-date">Programming</div>
+  <div class="cv-body">
+    <ul class="cv-chips">
+      <li class="cv-chip">Rust</li><li class="cv-chip">SageMath</li><li class="cv-chip">Python</li><li class="cv-chip">C/C++</li>
+    </ul>
+  </div>
+</div>
+
+<div class="cv-row">
+  <div class="cv-date">Languages</div>
+  <div class="cv-body">
+    <ul class="cv-chips">
+      <li class="cv-chip">Russian · native</li><li class="cv-chip">English · fluent</li><li class="cv-chip">Dutch · beginner</li>
+    </ul>
+  </div>
+</div>
+
+</div>
